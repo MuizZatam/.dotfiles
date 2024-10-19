@@ -180,13 +180,21 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # class                 border  bground text    indicator child_border
-client.focused          #83CAFA #51A2DA #FFFFFF #83CAFA   #51A2DA
-client.focused_inactive #8C8C8C #4C4C4C #FFFFFF #4C4C4C   #8C8C8C
-client.unfocused        #4C4C4C #222222 #888888 #292D2E   #222222
+client.focused		#e56b6f #355070 #ffffff #eaac8b   #eaac8b
+client.focused_inactive #b56576 #355070 #ffffff #eaac8b	  #eaac8b
 client.urgent           #EC69A0 #DB3279 #FFFFFF #DB3279   #DB3279
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 client.background       #FFFFFF
 
+# Borders and Layouts
+default_border pixel 3
+default_floating_border pixel 3
+gaps inner 2
+gaps outer 2
+
 # Start polybar
 exec --no-startup-id polybar
+
+# Set wallpaper
+exec --no-startup-id nitrogen --restore

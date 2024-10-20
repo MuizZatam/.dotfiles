@@ -194,7 +194,7 @@ gaps inner 2
 gaps outer 2
 
 # Start polybar
-exec --no-startup-id polybar
+exec --no-startup-id polybar top
 
 # Set wallpaper
 exec --no-startup-id nitrogen --restore

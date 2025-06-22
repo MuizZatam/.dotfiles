@@ -1,0 +1,8 @@
+require("keymaps")
+require("paq_conf")
+require("plugins.theme")
+require("plugins.lualine")
+require("plugins.telescope")
+require("plugins.ts")
+require("plugins.mason")
+require("plugins.cmp")

@@ -76,3 +76,15 @@ require('lspconfig')['lua_ls'].setup({
   on_attach = on_attach
 })
 
+require('lspconfig')['clangd'].setup({
+  capabilities = capabilities,
+  on_attach = on_attach
+})
+
+require('lspconfig')['emmet_language_server'].setup({
+
+	capabilities = capabilities,
+	on_attach = on_attach
+})
+
+

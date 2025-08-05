@@ -1,0 +1,6 @@
+require('settings')
+require('paq-conf')
+require('lsp-conf')
+require('plugins.telescope')
+require('plugins.ts')
+require('plugins.fterm')

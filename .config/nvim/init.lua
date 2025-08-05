@@ -1,6 +1,0 @@
-require('settings')
-require('keymaps')
-require('paq-nvim')
-require('plugins.ts')
-require('lsp_config')
-require('plugins.autocmp')

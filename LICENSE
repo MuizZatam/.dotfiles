@@ -1,17 +1,7 @@
-This repo consists of the most based .dotfiles i.e. configs
-for neovim, alacritty and other tools that I use.
+This repo consists of the most based .dotfiles i.e. configs for neovim, alacritty and other tools that I use.
 
-If you feel hesitant in taking inspiration, just remember that 
-I've stolen many ideas from reddit, github, gpt and other
-sources too. So before asking "Hey bro, can I use your configs?",
-remember - these are not my "my configs" and I don't care on how
-you use it.
+If you feel hesitant in taking inspiration, just remember that I've stolen many ideas from reddit, github, gpt and other sources too. So before asking "Hey bro, can I use your configs?", remember - these are not my "my configs" and I don't care on how you use it.
 
-If you feel these configs or any parts of it suck, I can't care
-less. I've written these for me, and not for you. And for those
-minimalism nerds that think "plugins and lua are bloat" and yet 
-live in a cluttered space with cheeto dust around, fix your life
-before you judge my dots.
+If you feel these configs or any parts of it suck, I can't care less. I've written these for me, and not for you. And for those minimalism nerds that think "plugins and lua are bloat" and yet  live in a cluttered space with cheeto dust around, fix your life before you judge my dots.
 
-This license is definitely not sarcasm btw.
-(I use Debian btw)
+This license is definitely not sarcasm btw. (I use Debian btw)

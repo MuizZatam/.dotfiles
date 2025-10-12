@@ -1,0 +1,63 @@
+configuration {
+    modi: "drun,run";
+    font: "Monospace 12";
+    columns: 1;
+    padding: 10;
+    location: 0;
+    fullscreen: false;
+    opacity: "100";
+}
+
+* {
+    bg:       #2b3339;
+    fg:       #d3c6aa;
+    sel-bg:   #414b50;
+    sel-fg:   #d3c6aa;
+    accent:   #a7c080;
+    font: "Monospace 12";
+}
+
+window {
+    background-color: @bg;
+}
+
+mainbox {
+    background-color: @bg;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg;
+    text-color: @fg;
+}
+
+prompt {
+    text-color: @accent;
+    padding: 0px 10px 0px 0px;
+}
+
+entry {
+    text-color: @fg;
+    placeholder: "Search...";
+}
+
+listview {
+    background-color: @bg;
+    lines: 10;
+    fixed-height: true;
+}
+
+element {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element selected {
+    background-color: @sel-bg;
+    text-color: @sel-fg;
+}
+
+element-text {
+    highlight: @accent;
+}
+

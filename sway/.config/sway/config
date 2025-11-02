@@ -141,10 +141,10 @@ bindsym $mod+Shift+s exec grim -g "$(slurp)" -t png - | wl-copy -t image/png
 default_border pixel
 default_floating_border pixel
 
-client.focused          #3a5a40 #3a5a40 #fefae0 #3a5a40 #3a5a40
-client.unfocused        #344e41 #344e41 #a3b18a #344e41 #344e41
-client.focused_inactive #3a5a40 #3a5a40 #a3b18a #3a5a40 #3a5a40
-client.urgent           #588157 #588157 #fefae0 #588157 #588157
+client.focused          #5F5B6B #5F5B6B #C1BDB3 #5F5B6B #5F5B6B
+client.unfocused        #323031 #323031 #7F7979 #323031 #323031
+client.focused_inactive #3D3B3C #3D3B3C #7F7979 #3D3B3C #3D3B3C
+client.urgent           #7F7979 #7F7979 #C1BDB3 #7F7979 #7F7979
 
 gaps inner 10
 

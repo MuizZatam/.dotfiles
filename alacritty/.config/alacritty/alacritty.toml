@@ -7,32 +7,44 @@ size = 16
 [window]
 padding = { x = 10, y = 10 }
 dynamic_padding = true
-# Colors (Everforest Dark)
 
-# Default colors
 [colors.primary]
-background = '#2d353b'
-foreground = '#d3c6aa'
+background = "#1E1D1D"
+foreground = "#EAE7E0"
 
-# Normal colors
 [colors.normal]
-black = '#475258'
-red = '#e67e80'
-green = '#a7c080'
-yellow = '#dbbc7f'
-blue = '#7fbbb3'
-magenta = '#d699b6'
-cyan = '#83c092'
-white = '#d3c6aa'
+black   = "#1E1D1D"
+red     = "#7F7979"
+green   = "#5F5B6B"
+yellow  = "#C1BDB3"
+blue    = "#3D3B3C"
+magenta = "#7F7979"
+cyan    = "#5F5B6B"
+white   = "#EAE7E0"
 
-# Bright colors
 [colors.bright]
-black = '#475258'
-red = '#e67e80'
-green = '#a7c080'
-yellow = '#dbbc7f'
-blue = '#7fbbb3'
-magenta = '#d699b6'
-cyan = '#83c092'
-white = '#d3c6aa'
+black   = "#3D3B3C"
+red     = "#7F7979"
+green   = "#C1BDB3"
+yellow  = "#EAE7E0"
+blue    = "#5F5B6B"
+magenta = "#C1BDB3"
+cyan    = "#7F7979"
+white   = "#FFFFFF"
+
+[colors.cursor]
+text = "#1E1D1D"
+cursor = "#EAE7E0"
+
+[colors.selection]
+text = "#1E1D1D"
+background = "#EAE7E0"
+
+[colors.footer_bar]
+background = "#3D3B3C"
+foreground = "#EAE7E0"
+
+[colors.vi_mode_cursor]
+text = "#1E1D1D"
+cursor = "#7F7979"
 

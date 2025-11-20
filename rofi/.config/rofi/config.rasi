@@ -1,63 +1,39 @@
-configuration {
-    modi: "drun,run";
-    font: "Monospace 12";
-    columns: 1;
-    padding: 10;
-    location: 0;
-    fullscreen: false;
-    opacity: "100";
-}
-
 * {
-    bg:       #2b3339;
-    fg:       #d3c6aa;
-    sel-bg:   #414b50;
-    sel-fg:   #d3c6aa;
-    accent:   #a7c080;
-    font: "Monospace 12";
+    font: "Noto Sans Mono 12";
 }
 
 window {
-    background-color: @bg;
-}
-
-mainbox {
-    background-color: @bg;
+    background-color: #323031;
+    padding: 8px;
 }
 
 inputbar {
-    children: [prompt, entry];
-    background-color: @bg;
-    text-color: @fg;
+    background-color: #3D3B3C;
+    text-color: #C1BDB3;
+    padding: 6px;
 }
 
 prompt {
-    text-color: @accent;
-    padding: 0px 10px 0px 0px;
+    text-color: #C1BDB3;
 }
 
 entry {
-    text-color: @fg;
-    placeholder: "Search...";
+    text-color: #C1BDB3;
 }
 
 listview {
-    background-color: @bg;
-    lines: 10;
-    fixed-height: true;
+    background-color: #323031;
+    spacing: 2px;
 }
 
 element {
-    background-color: @bg;
-    text-color: @fg;
+    background-color: #323031;
+    text-color: #7F7979;
+    padding: 6px;
 }
 
 element selected {
-    background-color: @sel-bg;
-    text-color: @sel-fg;
-}
-
-element-text {
-    highlight: @accent;
+    background-color: #5F5B6B;
+    text-color: #C1BDB3;
 }
 

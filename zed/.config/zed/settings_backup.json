@@ -5,10 +5,10 @@
   },
   "base_keymap": "Atom",
   "vim_mode": true,
-  "relative_line_numbers": "enabled",
+  "relative_line_numbers": true,
   "ui_font_size": 17,
   "buffer_font_size": 19.0,
-  "theme": "Gruvbox Baby",
+  "theme": "Gruvbox Crisp Anysphere Blend Dark",
   "toolbar": { "breadcrumbs": false, "quick_actions": false },
   "tabs": { "file_icons": true }
 }

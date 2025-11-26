@@ -5,46 +5,36 @@ italic = { family = "monospace", style = "italic" }
 size = 16
 
 [window]
-padding = { x = 10, y = 10 }
 dynamic_padding = true
+padding = { x = 10, y = 10 }
 
+# Colors (Gruvbox dark)
+
+# Default colors
 [colors.primary]
-background = "#1E1D1D"
-foreground = "#EAE7E0"
+# hard contrast background = = '#1d2021'
+background = '#282828'
+# soft contrast background = = '#32302f'
+foreground = '#ebdbb2'
 
+# Normal colors
 [colors.normal]
-black   = "#1E1D1D"
-red     = "#7F7979"
-green   = "#5F5B6B"
-yellow  = "#C1BDB3"
-blue    = "#3D3B3C"
-magenta = "#7F7979"
-cyan    = "#5F5B6B"
-white   = "#EAE7E0"
+black   = '#282828'
+red     = '#cc241d'
+green   = '#98971a'
+yellow  = '#d79921'
+blue    = '#458588'
+magenta = '#b16286'
+cyan    = '#689d6a'
+white   = '#a89984'
 
+# Bright colors
 [colors.bright]
-black   = "#3D3B3C"
-red     = "#7F7979"
-green   = "#C1BDB3"
-yellow  = "#EAE7E0"
-blue    = "#5F5B6B"
-magenta = "#C1BDB3"
-cyan    = "#7F7979"
-white   = "#FFFFFF"
-
-[colors.cursor]
-text = "#1E1D1D"
-cursor = "#EAE7E0"
-
-[colors.selection]
-text = "#1E1D1D"
-background = "#EAE7E0"
-
-[colors.footer_bar]
-background = "#3D3B3C"
-foreground = "#EAE7E0"
-
-[colors.vi_mode_cursor]
-text = "#1E1D1D"
-cursor = "#7F7979"
-
+black   = '#928374'
+red     = '#fb4934'
+green   = '#b8bb26'
+yellow  = '#fabd2f'
+blue    = '#83a598'
+magenta = '#d3869b'
+cyan    = '#8ec07c'
+white   = '#ebdbb2'
